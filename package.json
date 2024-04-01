@@ -1,0 +1,31 @@
+{
+  "name": "univhub",
+  "version": "1.0.0",
+  "description": "gestion des pannes et les annonces dans un établissement",
+  "main": "app.js",
+  "scripts": {
+    "server:dev": "NODE_ENV=dev nodemon server.js",
+    "server:prod": "NODE_ENV=prod nodemon server.js"
+  },
+  "author": "Marwa Madani",
+  "license": "ISC",
+  "devDependencies": {
+    "bcrypt": "^5.1.1",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "html-to-text": "^9.0.5",
+    "jsonwebtoken": "^9.0.2",
+    "live-server": "^1.2.2",
+    "mongoose": "^8.2.4",
+    "multer": "^1.4.5-lts.1",
+    "ndb": "^1.1.5",
+    "nodemailer": "^6.9.13",
+    "nodemon": "^3.1.0",
+    "path": "^0.12.7",
+    "pug": "^3.0.2",
+    "sharp": "^0.33.3",
+    "util": "^0.12.5",
+    "validator": "^13.11.0"
+  }
+}
